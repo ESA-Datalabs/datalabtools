@@ -1,4 +1,13 @@
 # Pip installation in DATALAB's basic jupyterlab
+
+## Official Documentation
+
+Package installation is well documented in the [official documentation](https://www.datalabs.esa.int/help), at the  ["getting started with jupyter datalabs" helppage](https://s2e2.cosmos.esa.int/www/esadatalabs_iapplications/Getting_started_with_Jupyter_datalabs.html).
+
+
+## Workaround
+
+Incase the above documentation should not work, the following is a (non recommended) workaround.
 The python environment in DATALAB's jupyterlab is essentially a conda environment.
 To install further python packages the following should be done:
 
