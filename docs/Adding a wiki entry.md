@@ -1,5 +1,5 @@
 # How to add a Wiki entry
-Depending on if you are already a collaborator, on the repository or not, this changes slightly.
+Depending on if you are already a collaborator in this repository or not, this changes slightly.
 
 ## 1. Check out the repository
 
