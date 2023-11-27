@@ -1,6 +1,11 @@
 # How to add a Wiki entry
+Depending on if you are already a collaborator, on the repository or not, this changes slightly.
 
 ## 1. Check out the repository
+
+### 1.1. For collaborators
+
+In this case you are already added to the repsoitory as a collaborator, and you can proceed with the git clone command
 
 ```bash
 
@@ -8,7 +13,20 @@ git clone https://github.com/ESA-Datalabs/datalabtools.git
 
 ```
 
+### 1.2. For the public
+
+In this case you do not have write and push permissions to the repo. Therfore, please Fork the repo from the repo's homepage and clone from your forked repo.
+
+
+```bash
+
+git clone https://github.com/{YOURUSERNAME}/datalabtools.git
+
+```
+
 ## 2. Create a new branch
+
+Navigate to the cloned folder and create a new branch.
 
 ```bash
 
@@ -33,6 +51,7 @@ git push origin my-new-wiki-entry
 ```
 
 Then go to [the GitHub repo and open a pull request](https://github.com/ESA-Datalabs/datalabtools/compare).
+If you have previously forked the repo, open a pull request and click on 'compare across forks' and select your fork in the 'head repository' dropdown menu.
 
 ## 5. Wait for the pull request to be merged
 
