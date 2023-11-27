@@ -15,7 +15,7 @@ git clone https://github.com/ESA-Datalabs/datalabtools.git
 
 ### 1.2. For the public
 
-In this case you do not have write and push permissions to the repo. Therfore, please Fork the repo from the repo's homepage and clone from your forked repo.
+In this case you do not have write and push permissions to the repo. Therefore, please fork the repo from the repo's homepage and clone from your forked repo.
 
 
 ```bash
