@@ -1,7 +1,8 @@
 # Saving notebook cell output when tab is closed
-While executing code in a jupyter notebook, celloutput is directly displayed inline. While a task can run on Datalabs without the user being connected, the current jupyter limitations make it difficult to save the cell output of the execution.
-To circumvent missing output, this output can be saved beforehand:
-At the beginning of the cell, which output should be saved one can append:
+While executing code in a jupyter notebook, cell output is directly displayed inline. 
+While a task can run on Datalabs without the user being connected, the current jupyter limitations make it difficult to save the cell output during the execution.
+To circumvent missing output, this output can be saved by adding one line of code to each cell beforehand:
+At the beginning of the cell, of which output should be saved one can append:
 
 ```bash
 
