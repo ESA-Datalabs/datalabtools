@@ -1,6 +1,6 @@
 # Using python in the termial
-The standart jupyterlab envirement runs on python3.11.
-When one wants to start a script from the terminal, the standart jupyterlab datalabs does not include an alias for this python version.
+The standard jupyterlab environment runs on python3.11 currently.
+When one wants to start a script from the terminal, the standard jupyterlab datalabs does not include an alias for this python version.
 The python installation can be found from a notebook via
 ```bash
 
