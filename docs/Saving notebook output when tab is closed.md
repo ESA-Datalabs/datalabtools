@@ -4,7 +4,7 @@ While a task can run on Datalabs without the user being connected, the current j
 To circumvent missing output, this output can be saved by adding one line of code to each cell beforehand:
 At the beginning of the cell, of which output should be saved one can append:
 
-```bash
+```py
 
 %%capture my_output_var
 #... code to be executed
@@ -12,7 +12,7 @@ At the beginning of the cell, of which output should be saved one can append:
 ```
 and then after code completion the cell's output can be viewed with:
 
-```bash
+```py
 
 my_output_var.show()
 
