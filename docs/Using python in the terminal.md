@@ -13,7 +13,8 @@ os.path.dirname(sys.executable)
 then an alias can be defined in the terminal, for example
 ```bash
 
-alias python3.11='/opt/miniconda/bin'
+alias python='/opt/miniconda/bin'
 
 ```
-then calling 'python3.11' inside the terminal will launch that version.
+then calling 'python' inside the terminal will launch that version.
+This alias will then be defined for the specific terminal session.
